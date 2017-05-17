@@ -62,6 +62,7 @@ public class BasicFileOps {
 		BasicFileOps bfo = new BasicFileOps();
 		bfo.mainMethod(myFolder);
 		System.out.println(bfo.finalNumber);
+		System.out.println("---Milan Vasiæ");
 		in.close();
 	}
 }
