@@ -39,8 +39,9 @@ public class BasicFileOps {
 					
 					scanner.close();
 				} 
-				catch(IOException e) {
-					e.printStackTrace();
+				catch(IOException exception) {
+					//Print exception
+					exception.printStackTrace();
 				}
 			}
 			if(fileEntry.isDirectory()) {
